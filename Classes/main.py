@@ -4,7 +4,7 @@
 # Classes: -> Classes are the bluePrint of object, it has 3 things -> Attributes,methods and open functions => Variable inside class is called attribute, => Function inside class is called methods
 
 # class Factory():
-#     a = 12      # -> Attributes
+#     a = 12 # -> Attributes
 
 #     def hello(self):    # -> Methods
 #         print("Hello how are you")
@@ -22,7 +22,7 @@
 
 
 class Factory:
-    # The following __init__ is a constructor which can take parameters as the classes can't take parameters directly so it it takes the parameters in the constructor
+    # The following __init__ is a constructor which can take parameters as the classes can't take parameters directly so it takes the parameters in the constructor
 
     def __init__(self,material,zips,pockets):
                # -> Self is use to trace the location of the object,self trace the location in the ram, suppose the postion of the object is 100 in ram so the following thing will become like 100.material = material and so on..
@@ -47,7 +47,7 @@ class Animal:
 
     def __init__(self,age):
 
-        self.age = age  # -> Instance Attribute
+        self.age = age  # -> Instance Attribute -> attributes inside a constructor is called instance attributes
 
     def show(self):     # -> instance Method
 
