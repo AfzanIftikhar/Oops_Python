@@ -63,6 +63,7 @@ class BankTransfer(Payment):
 Payment1 = JazzCash(1000,'afzan',9233432234,)
 Payment2 = EasyPaisa(2000,'Zaid',9231231231,)
 Payment3 = BankTransfer(3000,'Muhtasib Shah',"United Bank Limited")
+Payment4 = JazzCash(3000,'Syed Muhammad Qasim',9233432234)
 
 Payments = [Payment1,Payment2,Payment3]
 
