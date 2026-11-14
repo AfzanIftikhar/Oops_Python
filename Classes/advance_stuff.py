@@ -21,3 +21,14 @@ add(12,12)
 
 
 # Args & kwargs
+
+
+def adding(*args):
+    sum = 0
+    for i in args:
+        sum += i
+    print(sum)
+
+
+
+adding(1,5,2,63,21,32,21)
