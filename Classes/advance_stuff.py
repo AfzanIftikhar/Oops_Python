@@ -82,17 +82,30 @@
 
 # Map is use to apply Function on multiple Items, it takes One Function and an iterable i,e List or dictionary or maybe list
 
-a = [2,3,1,42,1]
+# a = [2,3,1,42,1]
 
-result = map(lambda x : x ** 2, a)
+# result = map(lambda x : x ** 2, a)
 
-print(list(result))
+# print(list(result))
 
 # Filter returns only the elements which passed through a certain condition and the particular element met the condition
 
-result = filter(lambda x : x % 2 == 0 , a)
+# result = filter(lambda x : x % 2 == 0 , a)
 
-print(list(result))
+# print(list(result))
 
 
 # {Both Map and filter returns an object which has to be converted into list}
+
+
+
+# Modules an packagess
+
+# modules is single file code, which can be used in other file codes , e.g
+
+from modelss import maths  
+
+print(maths.addition(12,23))
+
+
+# Packages are folder which consist of multiple modules
